@@ -1,0 +1,15 @@
+ 
+Neste trabalho iremos focar na utilizacao do Azure AI - Visioin Studio, com acesso atraves:
+
+figura 0
+
+Apos entrar no portal, iremos solucionar o ultimo projeto do Bootcamp Microsoft Azure AI Fundamentals  selecioinando "Extract text from images". Essa API do Azure AI consegue extrair texto a partir de figuras que inserimos atraves de uploads de forma que nao e necessario escrever uma linha de codigo.
+
+Para exemplificar iremos fazer um passo a passo.
+### Primeira etapa
+Criar um criar um Azure AI services resource atraves do portal https://portal.azure.com . Escolhemos um Resource group, caso ja tenha um podemos escolher, e logo depois inserimos um nome deste recurso, que depoiis sera vinculado ao Vision Studio.
+### Segunda etapa
+Conectar o Azure AI services resource criado anteriormente ao Vision Studio. Entrar  https://portal.vision.cognitive.azure.com , seleciionar como default resource o resource que foi criado, e depois clicar em Vision Studio.
+### Terceira etapa
+Nesta etapa varias features estaram disponiveis para escolher, mas o que faremos e escolher a "Extract Text from Images". A partir de agora sem termos escrito uma liinha de comando ja podemos utilizar um recurso de inteligencia artificial para extrair texto de figura, pdf e ate mesmo formato TIFF.
+### Resultado
